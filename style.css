@@ -1,0 +1,73 @@
+/* Basic styling for the game container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the word display */
+#word-display {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+/* Styling for letter buttons */
+#letter-buttons {
+    margin-top: 20px;
+}
+
+.letter {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.letter:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the hangman image */
+#hangman-image {
+    margin-top: 20px;
+}
+
+/* Styling for game status message */
+#game-status {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+}
